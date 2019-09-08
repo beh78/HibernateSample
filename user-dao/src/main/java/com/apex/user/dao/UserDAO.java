@@ -15,6 +15,9 @@ public class UserDAO {
 
 	public void addUser(User user) {
 		
+		/*
+		 * kkkkkk
+		 */
 		Session session  = HibernateUtil.getSessionFactory().openSession();
 		Transaction trx  = session.beginTransaction();
 		session.save(user);
