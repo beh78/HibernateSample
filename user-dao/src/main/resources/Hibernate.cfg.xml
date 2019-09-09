@@ -8,6 +8,8 @@
     <property name="hibernate.connection.username">root</property>
     <property name="hibernate.connection.password">123456</property>
     <!--Here we are mapping Pojo class not hbm-->
-     <mapping class="com.apex.user.entity.User" />
+     <mapping class="com.ap.user.entity.User" />
+     <mapping class="com.ap.user.entity.Contact" />
+     <mapping class="com.ap.user.entity.Bank" />     
   </session-factory>
 </hibernate-configuration>

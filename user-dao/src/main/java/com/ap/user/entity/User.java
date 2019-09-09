@@ -1,4 +1,4 @@
-package com.apex.user.entity;
+package com.ap.user.entity;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

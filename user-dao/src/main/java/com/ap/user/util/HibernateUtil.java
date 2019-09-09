@@ -1,4 +1,4 @@
-package com.apex.user.util;
+package com.ap.user.util;
 
 import org.hibernate.SessionFactory;
 import org.hibernate.boot.registry.StandardServiceRegistryBuilder;

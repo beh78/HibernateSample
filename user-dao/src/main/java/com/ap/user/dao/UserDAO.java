@@ -1,11 +1,11 @@
-package com.apex.user.dao;
+package com.ap.user.dao;
 
 
 import org.hibernate.Session;
 import org.hibernate.Transaction;
 
-import com.apex.user.entity.User;
-import com.apex.user.util.HibernateUtil;
+import com.ap.user.entity.User;
+import com.ap.user.util.HibernateUtil;
 
 public class UserDAO {
 	
@@ -15,9 +15,6 @@ public class UserDAO {
 
 	public void addUser(User user) {
 		
-		/*
-		 * kkkkkk
-		 */
 		Session session  = HibernateUtil.getSessionFactory().openSession();
 		Transaction trx  = session.beginTransaction();
 		session.save(user);
@@ -29,7 +26,7 @@ public class UserDAO {
 		
 	}
 
-	public void deleteUser(int i) {
+	public void deleteUser(int id) {
 		
 	}
 
